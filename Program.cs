@@ -1,4 +1,4 @@
-// Screen Sound
+// BeatFlow
 string mensagemDeBoasVindas = "Boas vindas ao BeatFlow";
 // List<string> listasDasBandas = new List<string> { "U2", "The Beatles", "Calypso"};
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
