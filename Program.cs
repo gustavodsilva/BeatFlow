@@ -1,16 +1,17 @@
 // Screen Sound
-string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
+string mensagemDeBoasVindas = "Boas vindas ao BeatFlow";
 // List<string> listasDasBandas = new List<string> { "U2", "The Beatles", "Calypso"};
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
-bandasRegistradas.Add("Eli Soares", new List<int> { 10, 8, 6});
-bandasRegistradas.Add("Get Church", new List<int>());
-bandasRegistradas.Add("Renascer Praise", new List<int>());
+bandasRegistradas.Add("Coldplay", new List<int> { 10, 9, 8});
+bandasRegistradas.Add("The Beatles", new List<int> { 9, 7, 10});
+bandasRegistradas.Add("Djavan", new List<int> { 10, 8, 5});
 
 void ExibirLogo()
 {
     Console.WriteLine(@"
-█▀ █▀▀ █▀█ █▀▀ █▀▀ █▄░█   █▀ █▀█ █░█ █▄░█ █▀▄
-▄█ █▄▄ █▀▄ ██▄ ██▄ █░▀█   ▄█ █▄█ █▄█ █░▀█ █▄▀");
+▒█▀▀█ █▀▀ █▀▀█ ▀▀█▀▀ ▒█▀▀▀ █░░ █▀▀█ █░░░█ 
+▒█▀▀▄ █▀▀ █▄▄█ ░░█░░ ▒█▀▀▀ █░░ █░░█ █▄█▄█ 
+▒█▄▄█ ▀▀▀ ▀░░▀ ░░▀░░ ▒█░░░ ▀▀▀ ▀▀▀▀ ░▀░▀░");
     Console.WriteLine("");
     Console.WriteLine(mensagemDeBoasVindas);
 }
