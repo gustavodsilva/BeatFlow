@@ -1,4 +1,4 @@
-# 🎵 ScreenSound
+# 🎵 BeatFlow
 
 Sistema de gerenciamento de bandas desenvolvido em C# utilizando Programação Orientada a Objetos.
 
